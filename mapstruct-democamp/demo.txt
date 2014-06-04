@@ -1,0 +1,39 @@
+projektstruktur
+    -> verweis aufs POM
+    -> Konfig in Eclipse zeigen
+
+interface anlegen mit animalToAnimalDto()
+    -> typkonvertierung
+    -> namensänderung
+    -> unmapped target property
+    -> type weight zu boolean ändern -> verweis auf Typkonvertierungen
+
+ersten test einkommentieren
+    -> INSTANCE anlegen, Verweis auf CDI/Spring
+    -> date format ändern    
+
+
+List<AnimalDto> animalsToAnimalDtos(List<Animal> animals) anlegen
+    -> zweiten Test einkommentieren
+    -> Verweise auf Maps, Collections
+    
+public ZooDto zooToZooDto(Zoo zoo) anlegen
+    -> dritten Test einkommentieren
+    -> Mappen von referenzierten Objekten
+    
+Animal animalDtoToAnimal(AnimalDto animal);
+    -> invers; @mapping auskommentieren
+    
+VisitorAndFavoriteAnimalDto visitorAndAnimalToDto(Visitor visitor, Animal animal)
+    -> mehrere sourcen
+
+DirectorDto directorToDirectorDto(Director director) anlegen
+    -> dateOfEntry kann nicht gemappt werden
+    -> @Mapper(uses=DateMapper.class)
+    -> sowohl handgeschriebene klassen als auch andere generierte mapper
+    -> Joda-Typen automatisch im nächsten Release
+    
+zu CDI-Projekt wechseln
+    -> ComponentModel
+    -> Generierten Code zeigen
+    -> Auch für Spring
