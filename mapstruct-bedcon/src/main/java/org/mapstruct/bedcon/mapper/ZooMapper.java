@@ -7,10 +7,10 @@ import org.mapstruct.Mapping;
 import org.mapstruct.Mappings;
 import org.mapstruct.bedcon.dto.AnimalDto;
 import org.mapstruct.bedcon.dto.DirectorDto;
+import org.mapstruct.bedcon.dto.VisitorAndFavoriteAnimalDto;
 import org.mapstruct.bedcon.dto.ZooDto;
 import org.mapstruct.bedcon.model.Animal;
 import org.mapstruct.bedcon.model.Director;
-import org.mapstruct.bedcon.model.VisitorAndFavoriteAnimalDto;
 import org.mapstruct.bedcon.model.Zoo;
 import org.mapstruct.factory.Mappers;
 
