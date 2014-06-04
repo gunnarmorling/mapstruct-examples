@@ -2,7 +2,12 @@ projektstruktur
     -> verweis aufs POM
     -> Konfig in Eclipse zeigen
 
-interface anlegen mit animalToAnimalDto()
+interface anlegen mit 
+
+    @Mapping(source="weightInPounds", target="weight")
+    @Mapping(source="dateOfBirth", dateFormat="dd.MM.yyyy")
+    animalToAnimalDto()
+
     -> typkonvertierung
     -> namensänderung
     -> unmapped target property
