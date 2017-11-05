@@ -8,7 +8,7 @@ public class CustomerDto {
     public double creditScore;
     public String dateOfBirth;
     public String title;
-    public String fullName;
     public AddressDto address;
+    public String fullName;
     public ExternalCustomerType customerType;
 }
