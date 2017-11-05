@@ -10,5 +10,5 @@ public class CustomerDto {
     public String title;
     public String fullName;
     public AddressDto address;
-    public String customerType;
+    public ExternalCustomerType customerType;
 }

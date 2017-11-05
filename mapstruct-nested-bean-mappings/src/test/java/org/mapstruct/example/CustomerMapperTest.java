@@ -48,7 +48,7 @@ public class CustomerMapperTest {
         CustomerDto dto = CustomerMapper.INSTANCE.customerToDto(customer);
 
         assertThat(dto.customerId).isEqualTo(1L);
-
-
+        assertThat(dto.firstName).isEqualTo("Bob");
+        assertThat(dto.lastName).isEqualTo("Smith");
     }
 }
