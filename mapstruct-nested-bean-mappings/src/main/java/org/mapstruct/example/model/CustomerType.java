@@ -1,4 +1,4 @@
-package org.mapstruct.example.mapper;
+package org.mapstruct.example.model;
 
 public enum CustomerType {
 	B2B,

@@ -7,8 +7,11 @@ public class CustomerDto {
     public String lastName;
     public double creditScore;
     public String dateOfBirth;
-    public String title;
-    public AddressDto address;
-    public String fullName;
-    public ExternalCustomerType customerType;
+//    public String title;
+//    public AddressDto address;
+//    public String fullName;
+//    public ExternalCustomerType customerType;
+
+    // update methods
+    // list
 }
